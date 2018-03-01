@@ -1,13 +1,18 @@
-var sonnet = document.getElementById("sonnet").innerHTML
+var sonnet = document.getElementById("sonnet").innerHTML;
 console.log(sonnet);
+
 var orphansPosition = sonnet.indexOf("orphans");
 console.log(orphansPosition);
+
 var sonnetLength = sonnet.length;
 console.log(sonnet.length);
+
 var sonnet = sonnet.replace("winter", "yuletide");
 console.log(sonnet);
+
 var sonnet = sonnet.replace(/the /gi, "a large ");
 console.log(sonnet);
+
 document.getElementById("sonnet").innerHTML = sonnet;
 
 // Paste the code below into your HTML file.
